@@ -65,6 +65,7 @@ body
 
 .page_title
 {
+	margin-top:25px;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 30px;
 	color:#00C8FF;
@@ -73,8 +74,9 @@ body
 
 .row
 {
-
-  
+	margin:auto;
+  max-width: 80%;
+  margin-top: 1em;
 
 }
 
@@ -88,8 +90,115 @@ body
 
 .left_about p
 {
+	max-width: 80%;
 	font-size:16px;
 	color:#FFFFFF;
 	font-family: 'Titillium Web', sans-serif;
 }
 
+.button {
+    background-color: #008E8F;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/*portfolio*/
+
+ .portfolio_right
+{
+	max-width: 80%;
+	font-size: 16px;
+	color:#CBCBCB;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+#portfolio
+{
+
+	
+}
+
+.projects
+{
+	max-width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	float:left;
+	margin-left:16%;
+}
+
+.project
+{
+	max-width: 256px;
+	max-height: 162px;
+	display: inline-block;
+	vertical-align: top;
+	margin:0.1em;
+}
+
+.memeber 
+{
+	width: 64px;
+	display: inline-block;
+	vertical-align: top;
+    column-count: 3;
+    margin-right: 6em;
+}
+.memeber  img
+{
+	max-width: 128px;
+	max-height: 128px;
+	
+}
+.team_r
+{
+	
+	max-width: 40%;
+	vertical-align: top;
+	
+	margin: auto;
+	
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #007FA2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #000000;
+}
+
+.container {
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    float:right;
+}
