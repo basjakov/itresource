@@ -171,6 +171,8 @@ body
 }
 
 
+
+/*
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -194,6 +196,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #000000;
 }
+*/
 
 .container {
     border-radius: 5px;

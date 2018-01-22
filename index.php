@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Itresource</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet">
-	
+
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 
-	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"  crossorigin="anonymous">
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css"  crossorigin="anonymous">
 
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css"  crossorigin="anonymous">
 
-	<script src="js/jquery-3.1.1.min.js"  crossorigin="anonymous"></script>
+ 
 
-	<script src="js/tether.min.js" crossorigin="anonymous"></script>
 
-	<script src="js/bootstrap.min.js"  crossorigin="anonymous"></script>
-	-->
+  
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+   <link type="text/css" rel="stylesheet" href="css/overlay.css">
 </head>
 <body>
 
@@ -28,26 +31,41 @@
 	<script src="js/Projector.js"></script>
 	<script src="js/CanvasRenderer.js"></script>
 	<script src="js/script.js"></script>
-  <header>
-	<div class="menu">
 
-		<nav class="menu_logo">
-						
-		</nav>
-		<nav class="menu_r">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#team">team</a></li>
-					<li><a href="#contact">Contact</a></li>
-					
-				</ul>	
-		</nav>
-	   </div>	
-   </header>
+ <header>
+
+  
+ 	   <h2 class="navbar-brand brand-name">
+         <a href="#home">
+           	<img class="img-responsive2"       
+           src="img/logo/logo.png" style="max-width:290px;margin:0.2em;"></a>
+       </h2>
+
+  
+
+            <div class="toggle-button" id="toggle">
+                <span class="bar top"></span>
+                <span class="bar middle"></span>
+                <span class="bar bottom"></span>
+            </div>
+        </div>
+        <nav class="overlay" id="overlay">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+  
+
+
+
+
+ </header>
 </div>
-<div id="about" style="margin-top:20%;">
+<div id="about" >
 	<h3 class="page_title">About</h3>
 	<div class="row">
 			<div class="right_logo" >
@@ -71,7 +89,7 @@
 			</div>
 	</div>
 </div>
-<div id="portfolio" style="margin-top:20%;">
+<div id="portfolio" >
 		<h3 class="page_title">Portfolio</h3>
 		<div class="projects">
 			<img src="img/portfolio/nla.png" class="project" >
@@ -84,7 +102,7 @@
 		</div>
 </div>
 
-<div id="team" style="margin-top:20%;">
+<div id="team" >
 	<h3 class="page_title">Team</h3>
   <div class="team_r">
 	 <div class="memeber">
@@ -100,7 +118,7 @@
 
 
 <div>
-<div id="contact" style="margin-top:20%;">
+<div id="contact" >
 	<h3 class="page_title">Contact</h3>
 	<div class="container">
 	  <form action="" method="post">
@@ -116,5 +134,16 @@
 	   </form>
 	 </div>
 </div>
+
+<!--libary-->
+
+  <script src="js/jquery-3.1.1.min.js"  crossorigin="anonymous"></script>
+
+  <script src="js/tether.min.js" crossorigin="anonymous"></script>
+
+  <script src="js/bootstrap.min.js"  crossorigin="anonymous"></script>
+
+  <script  src="js/overlay.js"></script>
+<!-- // -->
 </body>
 </html>
