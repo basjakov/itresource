@@ -38,7 +38,7 @@
  	   <h2 class="navbar-brand brand-name">
          <a href="#home">
            	<img class="img-responsive2"       
-           src="img/logo/logo.png" style="max-width:290px;margin:0.2em;"></a>
+           src="img/logo/logo.png" style="max-width:290px;margin-left:25px;"></a>
        </h2>
 
   
