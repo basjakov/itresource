@@ -38,24 +38,39 @@
  	   <h2 class="navbar-brand brand-name">
          <a href="#home">
            	<img class="img-responsive2"       
-           src="img/logo/logo.png" style="max-width:290px;margin-left:25px;"></a>
+           src="img/logo/logo.png" style="max-width:211px;margin-left:52px; position: fixed;"></a>
        </h2>
 
   
 
             <div class="toggle-button" id="toggle">
+                
                 <span class="bar top"></span>
                 <span class="bar middle"></span>
                 <span class="bar bottom"></span>
             </div>
         </div>
-        <nav class="overlay" id="overlay">
+ <nav  class="overlay menu" id="overlay">
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">Contact</a></li>
+   <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+   		<ul>
+   			<li><a href="#about" class="block_menu">About us</a></li>
+   			<li><a href="#services" class="block_menu">Services</a></li>
+   			<li><a href="#portfolio" class="block_menu">Portfolio</a></li>
+   			<li><a href="#team"  class="block_menu">team</a></li>
+   		</ul>
+   </div>
+   <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+   		<ul>
+   			<li><a href="#trainings">training</a></li>
+   			<li><a href="#contact">contact</a></li>
+   		</ul>
+   </div>
+   <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+   		<ul>
+   		AAAAAAAAAAAAA
+   		</ul>
+   </div>
   </ul>
 </nav>
   
@@ -66,73 +81,18 @@
  </header>
 </div>
 <div id="about" >
-	<h3 class="page_title">About</h3>
-	<div class="row">
-			<div class="right_logo" >
-				
-			</div>
-			<div class="left_about">
-			  <p style="color:#FFFFFF;">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like ldus PageMaker including versions of Lorem Ipsum
-			</p>
-			 <div class="row">
-				<button class="button">Web design</button>
-				<button class="button">Web development</button>
-				<button class="button">Software development</button>
-				<button class="button">seo</button>
-				<button class="button">Trainings</button>
-			</div>
-		<br>
-		<br>
-		<br>
-		<br>
-			</div>
-	</div>
+	
 </div>
 <div id="portfolio" >
 		<h3 class="page_title">Portfolio</h3>
-		<div class="projects">
-			<img src="img/portfolio/nla.png" class="project" >
-			<img src="img/portfolio/ustudy.png" class="project" >
-			<img src="img/portfolio/nla.png" class="project" >
-			<img src="img/portfolio/ustudy.png" class="project" >		
-		</div>
-		<div class="portfolio_right">
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like ldus PageMaker including versions of Lorem Ipsum
-		</div>
+		
 </div>
 
 <div id="team" >
-	<h3 class="page_title">Team</h3>
-  <div class="team_r">
-	 <div class="memeber">
-	 	<img src="img/team/avatar.png">
-	 </div>
-     <div class="memeber">
-     	<img src="img/team/avatar.png">
-     </div>
-     <div class="memeber">
-     	<img src="img/team/avatar.png">
-     </div>
-  </div>  
-
-
+	
 <div>
 <div id="contact" >
-	<h3 class="page_title">Contact</h3>
-	<div class="container">
-	  <form action="" method="post">
-	     <label for="fname">Name</label>
-	     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-	     <label for="lname">Last Name</label>
-	     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-	     <label for="subject">Subject</label>
-	     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"> 	
-	     </textarea>
-
-	      <input type="submit" value="Send Message">
-	   </form>
-	 </div>
+	
 </div>
 
 <!--libary-->

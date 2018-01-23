@@ -20,37 +20,6 @@ body
 }
 
 
-.menu_r ul
-{
-	
-	display: flex;
-    flex-direction: row;
-	float: right;
-	text-decoration: none;
-	list-style-type: none;
-}
-.menu_r ul li
-{
-	
-	margin-left:26px;
-}
-.menu_r ul li a
-{
-	color:#FFFFFF;
-	font-size: 19px;
-	text-transform: lowercase;
-	text-decoration: none;
-	list-style-type: none;
-	font-family: 'Titillium Web', sans-serif;
-}
-.menu_r ul li a:hover
-{
-	color:#00C8FF;
-
-	
-}
-
-
  .home body
   		   {
 				background-color: #000000;
@@ -88,6 +57,8 @@ body
 	vertical-align: top;
 }
 
+
+
 .left_about p
 {
 	max-width: 80%;
@@ -110,6 +81,8 @@ body
 }
 
 
+
+
 /*portfolio*/
 
  .portfolio_right
@@ -122,11 +95,7 @@ body
 }
 
 
-#portfolio
-{
 
-	
-}
 
 .projects
 {
@@ -146,29 +115,7 @@ body
 	margin:0.1em;
 }
 
-.memeber 
-{
-	width: 64px;
-	display: inline-block;
-	vertical-align: top;
-    column-count: 3;
-    margin-right: 6em;
-}
-.memeber  img
-{
-	max-width: 128px;
-	max-height: 128px;
-	
-}
-.team_r
-{
-	
-	max-width: 40%;
-	vertical-align: top;
-	
-	margin: auto;
-	
-}
+
 
 
 
