@@ -37,8 +37,15 @@ body
 	margin-top:25px;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 30px;
-	color:#00C8FF;
+	color:#FFFFFF;
+	font-weight: 200;
+	text-transform: uppercase;
 	text-align: center;
+}
+
+.page_title:hover
+{
+	color:#28B4DE;	
 }
 
 .row
@@ -57,7 +64,15 @@ body
 	vertical-align: top;
 }
 
-
+p
+{
+	font-size:15px;
+	font-weight: 300;
+	color:#FFFFFF;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	margin:0.5em;
+}
 
 .left_about p
 {
@@ -116,7 +131,11 @@ body
 }
 
 
-
+.portfolio div
+{
+	display: flex;
+	flex-direction: column;
+}
 
 
 /*
@@ -145,10 +164,3 @@ input[type=submit]:hover {
 }
 */
 
-.container {
-    border-radius: 5px;
-    max-width: 500px;
-    margin: auto;
-    padding: 20px;
-    float:right;
-}
