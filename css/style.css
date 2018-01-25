@@ -56,6 +56,33 @@ body
 
 }
 
+.border
+{
+	border: 3px solid #25A6CD;"
+}
+
+.line
+{
+	margin: auto;
+	position:absolute;
+
+}
+.vice_title
+{
+	margin: auto;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	color:#FFFFFF;
+	font-weight: 200;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.vice_title:hover
+{
+	color:#119DDE;
+}
+
 .right_logo
 {
 	max-width: 256px;
