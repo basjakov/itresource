@@ -144,3 +144,23 @@ var mouseX = 0, mouseY = 0,
 				renderer.render( scene, camera );
 
 			}
+
+
+function ChangeCaptcha() {
+	var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+	var string_length = 6;
+	var ChangeCaptcha = '';
+	for (var i=0; i<string_length; i++) {
+		var rnum = Math.floor(Math.random() * chars.length);
+		ChangeCaptcha += chars.substring(rnum,rnum+1);
+	}
+	document.getElementById('randomfield').value = ChangeCaptcha;
+}
+function check() {
+if(document.getElementById('CaptchaEnter').value == document.getElementById('randomfield').value ) {
+window.open('https://www.google.co.in','_self');
+}
+else {
+alert('Please re-check the captcha');
+}
+}

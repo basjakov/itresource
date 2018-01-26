@@ -58,7 +58,7 @@ body
 
 .border
 {
-	border: 3px solid #25A6CD;"
+	border: 3px solid #25A6CD;
 }
 
 .line
@@ -69,7 +69,7 @@ body
 }
 .vice_title
 {
-	margin: auto;
+	padding: 20px;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 18px;
 	color:#FFFFFF;
@@ -123,50 +123,45 @@ p
 }
 
 
-
-
-/*portfolio*/
-
- .portfolio_right
+#team img
 {
-	max-width: 80%;
-	font-size: 16px;
-	color:#CBCBCB;
-	font-family: 'Titillium Web', sans-serif;
-
+	max-width: 190px;
+	max-height: 190px;
 }
 
 
-
-
-.projects
+.team_member
 {
-	max-width: 40%;
+	font-family: 'Amatic SC', cursive;
+	font-size:40px;.
+	color: #FFFFFF;
+}
+
+.team_member:hover
+{
+	color:#119DDE;
+}
+
+.team_member_position
+{
+	font-family: 'Amatic SC', cursive;
+	font-size:30px;.
+	color: #FFFFFF;
+}
+
+.inline
+{
 	display: inline-block;
 	vertical-align: top;
-	float:left;
-	margin-left:16%;
 }
 
-.project
+.contact_form
 {
-	max-width: 256px;
-	max-height: 162px;
-	display: inline-block;
-	vertical-align: top;
-	margin:0.1em;
+
+	border-radius: 4px;
 }
 
-
-.portfolio div
-{
-	display: flex;
-	flex-direction: column;
-}
-
-
-/*
-input[type=text], select, textarea {
+input[type=text], input[type=tel],input[type=email],select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -191,3 +186,7 @@ input[type=submit]:hover {
 }
 */
 
+
+
+
+/*media for responsive */
