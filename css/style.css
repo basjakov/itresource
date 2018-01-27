@@ -134,7 +134,7 @@ p
 {
 	font-family: 'Amatic SC', cursive;
 	font-size:40px;.
-	color: #FFFFFF;
+	color: #000000;
 }
 
 .team_member:hover
@@ -161,6 +161,18 @@ p
 	border-radius: 4px;
 }
 
+.fa-youtube-play:hover
+{
+	color:#FF0000;
+}
+.fa-facebook:hover
+{
+	color: #3B5C9F;
+}
+.fa-github
+{
+	color:#222222;
+}
 input[type=text], input[type=tel],input[type=email],select, textarea {
     width: 100%;
     padding: 12px;
@@ -190,3 +202,17 @@ input[type=submit]:hover {
 
 
 /*media for responsive */
+
+@media screen and (max-width: 1250px)  {
+    #about,#services img{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 560px)  {
+   canvas{
+        display: none;
+    }
+   
+}

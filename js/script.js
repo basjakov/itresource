@@ -158,9 +158,9 @@ function ChangeCaptcha() {
 }
 function check() {
 if(document.getElementById('CaptchaEnter').value == document.getElementById('randomfield').value ) {
-window.open('https://www.google.co.in','_self');
+window.open('sendmail.php','_self');
 }
 else {
-alert('Please re-check the captcha');
+alert('Խնդրում ենք ճիշտ լրացրեք անվտանգության կոդը');
 }
 }
