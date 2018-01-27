@@ -25,7 +25,8 @@
 
 </style>
 
-  <link rel="shortcut icon" href="img/favicon.ico" />
+ <link rel="shortcut icon" href="img/favicon.ico" />
+
 
   <!-- Fonts -->
 
@@ -71,7 +72,7 @@
 
   
      <h2 class="navbar-brand brand-name">
-         <a href="index.php">
+          <a href="index.php">
             <img class="img-responsive2"       
            src="img/logo/logo.png"  style="max-width:211px;margin-left:52px; position: fixed;"></a>
        </h2>
@@ -118,6 +119,44 @@
 </nav>
  </header>
 </div>
+</div>
+
+<div id="contact">
+	<h3 class="page_title">Contact</h3>
+	<div class="container-fluid">
+		<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+					<iframe class="contact_form" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380.92741777213473!2d44.491209831248064!3d40.1997340373027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd6bbf260be5%3A0xfcd60dca516cdb29!2sMergelyan+Institute!5e0!3m2!1sen!2s!4v1516914980238" style="width:130%;height:490px;" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+          <ul style="color: #FFFFFF;">
+    				 <li class="text-right" style="font-size:15px;list-style-type: none;">info@itresource.ru</li>
+             <li class="text-right" style="font-size:15px;list-style-type: none;">+37495 88 33 66</li>
+             <li class="text-right" style="font-size:15px;list-style-type: none;">Yerevan  st. Hakob hakobyan</li>
+          </ul>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<form action="" method="POST">
+						<?php 
+            error_reporting(0);
+            include "sendmail.php";
+            ?>
+
+						<input type="text" name="name" placeholder="your name">
+						<input type="email" name="lastname" placeholder="your email">
+						<input type="text" name="subject" placeholder="subject">
+						<input type="tel" name="phone" placeholder="phone">
+						<textarea rows="4" cols="50" name="msg" class="input-xxlarge" style="margin: 18px 21.9844px 0px 0px; width: 300px; height: 199px;">     </textarea>
+					
+            <input type="text" id="randomfield" disabled>
+            <br><br>
+            <input  style="color:red;" id="CaptchaEnter" size="20" maxlength="6" />
+            <br><br>  
+            <input type="submit"  name="sendmail" value="Send message" style="margin-top:20px;" onclick="check()">    
+					</form>
+				</div>
+		</div>
+	</div>
 </div>
 
 

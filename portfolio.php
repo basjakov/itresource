@@ -25,7 +25,7 @@
 
 </style>
 
-  <link rel="shortcut icon" href="img/favicon.ico" />
+ <link rel="shortcut icon" href="img/favicon.ico" />
 
   <!-- Fonts -->
 
@@ -119,6 +119,62 @@
  </header>
 </div>
 </div>
+
+<div id="portfolio">
+  
+<div class="container">
+
+		<h3 class="page_title">Portfolio</h3>
+
+    <ul class="grid cs-style-4">
+        <li>
+          <figure>
+            <div><img src="img/portfolio/nla.jpg" class="img img-responsive" alt="nla.org"></div>
+            <figcaption>
+              <h3>www.nla.am</h3>
+              <span>national library armenia</span>
+              <a href="http://www.nla.am/">View</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div><img src="img/portfolio/ustudy.jpg" class="img img-responsive" alt="ustudy.am"></div>
+            <figcaption>
+              <h3>ustudy.am</h3>
+              <span>Ustudy is armenian educational and teaching platform</span>
+              <a href="http://www.ustudy.am/">View</a>
+            </figcaption>
+          </figure>
+        </li>
+        
+        <li>
+          <figure>
+            <div><img src="img/portfolio/alkotest.jpg"  class="img img-responsive" alt="alkotest"></div>
+            <figcaption>
+              <h3>alkotestery.ru</h3>
+              <span>national library armenia</span>
+              <a href="http://www.alkotestery.ru/">View</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div><img src="img/portfolio/ustudy.jpg" class="img img-responsive" alt="ustudy.am"></div>
+            <figcaption>
+              <h3>ustudy.am</h3>
+              <span>Ustudy is armenian educational and teaching platform</span>
+              <a href="http://www.ustudy.am/">View</a>
+            </figcaption>
+          </figure>
+        </li>
+
+
+      </ul>
+    </div>
+</div>
+<div>
+
 
 
 

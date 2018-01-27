@@ -13,6 +13,11 @@ body
 {
 	background-color: #000000;
 }
+
+label
+{
+	color:#DEDEDE;
+}
 /*20%*/
 .menu nav
 {
@@ -32,6 +37,8 @@ body
 		color:#0078ff;
 	}
 
+
+
 .page_title
 {
 	margin-top:25px;
@@ -46,6 +53,14 @@ body
 .page_title:hover
 {
 	color:#28B4DE;	
+}
+
+.logo
+{
+	max-width:211px;
+	margin-left:52px; 
+	position: fixed;
+	margin-top:15px;
 }
 
 .row
@@ -134,7 +149,7 @@ p
 {
 	font-family: 'Amatic SC', cursive;
 	font-size:40px;.
-	color: #000000;
+	color: #FFFFFF;
 }
 
 .team_member:hover

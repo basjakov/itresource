@@ -25,11 +25,10 @@
 
 </style>
 
-  <link rel="shortcut icon" href="img/favicon.ico" />
 
   <!-- Fonts -->
 
- 
+ <link rel="shortcut icon" href="img/favicon.ico" />
 
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200" rel="stylesheet">
 
@@ -67,11 +66,11 @@
 	<script src="js/CanvasRenderer.js"></script>
 	<script src="js/script.js"></script>
   <script src="js/modernizr.custom.js"></script>
-  <header>
+ <header>
 
   
      <h2 class="navbar-brand brand-name">
-         <a href="index.php">
+        <a href="index.php">
             <img class="img-responsive2"       
            src="img/logo/logo.png"  style="max-width:211px;margin-left:52px; position: fixed;"></a>
        </h2>
@@ -119,6 +118,77 @@
  </header>
 </div>
 </div>
+
+<div id="services" style="margin-top: 5%;"  >
+<h3 class="page_title">Services</h3>
+<div class="container">
+   <div class="row">
+     
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="text-center">
+               <img src="img/code.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <h3 class="vice_title">Web development</h3>
+              <p class="text-justify">
+                ITR company offers web site creating processes which will be written in a responsive option. Using languages are HTML, CSS, JS, JQUERY, PHP, OOP, MSQL
+              </p>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="text-center">
+               <img src="img/web-design.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <h3 class="vice_title">Web design</h3>
+                 <p class="text-justify">
+                ITR company offers web design servises(UI&UX) at any difficulty. Our top-class specialists will help you create your design that will be matched to your business.
+              </p>
+          </div>
+        </div>
+
+         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="text-center">
+               <img src="img/mobile-app-icon.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <h3 class="vice_title">Application development</h3>
+                 <p class="text-justify">
+                ITR company offers application cearting processes for Windows, Android and IOS
+              </p>
+          </div>
+        </div>
+
+         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="text-center">
+               <img src="img/seo.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <h3 class="vice_title">seo</h3>
+                 <p class="text-justify">
+                Seo will improve the visibility of your website in search engines. You will get much more customers than expected. With our help your website will acquire highest positions in the search engine results on Google and Yandex.
+              </p>
+          </div>
+        </div>
+
+         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="text-center">
+               <img src="img/training.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <h3 class="vice_title">trainings</h3>
+                 <p class="text-justify">
+                Subjects taught during the course include HTML, CSS, JQUERY, JS , PHP , MSQL and their most popular frameworks. After completing the course you will be able to create any responsive website. We offer both group and individual classes. The classes are held by highly qualified instructors.
+              </p>
+          </div>
+        </div>
+
+         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="text-center">
+               <img src="img/joystick.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <h3 class="vice_title">modeling and game development</h3>
+                 <p class="text-justify">
+               We carry out any size of complex projects providing with the most suitable 3D modelling solutions, such as character modelling etc. We will help you to realize your ideas by offering the most exciting, bright and creative solutions. Our services include preparing your 3d model for animation-rigging, skinning etc, rigging and animation for gaming.
+              </p>
+          </div>
+        </div>
+
+      
+  </div>
+</div>  
+</div>
+
 
 
 

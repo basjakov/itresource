@@ -71,9 +71,9 @@
 
   
      <h2 class="navbar-brand brand-name">
-         <a href="index.php">
+          <a href="index.php">
             <img class="img-responsive2"       
-           src="img/logo/logo.png"  style="max-width:211px;margin-left:52px; position: fixed;"></a>
+           src="img/logo/logo.png"  style="max-width:211px;margin-left:52px; position: fixed;"></a> 
        </h2>
 
             <div class="toggle-button" id="toggle">
@@ -119,6 +119,24 @@
  </header>
 </div>
 </div>
+<div id="about" >
+
+<div class="container">
+
+   
+   	 <h3 class="page_title">About us</h3>
+   	
+    <p class="text-justify">
+           
+            “It resources” company was founded in 01.17.2016. Company specializes in offering web-programming processes and in offering web application developmet. Our company also does web-programming lessons. Օur purpose is to satisfy your requirements at reasonable prices. If you want to give reliable solutions to your problems , our company will become your loyal partners. Our mission is to have our influental role in IT sphere. Customer satsifaction is the most important mission for us. We want to create original, good work and to keep stable quality.
+           
+    </p>
+     
+
+</div>
+ </div>
+</div>
+
 
 
 

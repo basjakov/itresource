@@ -23,8 +23,10 @@
             background-image: url('http://4.bp.blogspot.com/-EEMSa_GTgIo/UpAgBQaE6-I/AAAAAAAACUE/jdcxZVXelzA/s1600/ca.png');
         }
 
+
     </style>
 
+    <link rel="shortcut icon" href="img/favicon.ico" />
 
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200" rel="stylesheet">
 
@@ -55,57 +57,65 @@
 
 </head>
 <body onLoad="ChangeCaptcha()">
+    <script src="js/three.min.js"></script>
+    <script src="js/Projector.js"></script>
+    <script src="js/CanvasRenderer.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 <header>
 
+  
+     <h2 class="navbar-brand brand-name">
+         <a href="index.php">
+            <img class="img-responsive2"       
+           src="img/logo/logo.png"  style="max-width:211px;margin-left:52px; position: fixed;"></a>
+       
+       </h2>
 
-    <h2 class="navbar-brand brand-name">
-        <a href="#home">
-            <img class="img-responsive2"
-                 src="img/logo/logo.png" style="max-width:211px;margin-left:52px; position: fixed;"></a>
-    </h2>
+            <div class="toggle-button" id="toggle">
+                
+                <span class="bar top"></span>
+                <span class="bar middle"></span>
+                <span class="bar bottom"></span>
+            </div>
+        </div>
+ <nav  class="overlay menu" id="overlay">
 
-    <div class="toggle-button" id="toggle">
+  <div class="container-fluid">
 
-        <span class="bar top"></span>
-        <span class="bar middle"></span>
-        <span class="bar bottom"></span>
-    </div>
-    </div>
-    <nav  class="overlay menu" id="overlay">
-
-        <div class="container-fluid">
-
-            <ul class="row">
-		   <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-		   		<ul>
-		   			<li><a href="index.php" class="menu_item">About us</a></li>
-		   			<li><a href="index.php" class="menu_item">Services</a></li>
-		   			<li><a href="index.php" class="menu_item">Portfolio</a></li>
-		   			<li><a href="index.php" class="menu_item">team</a></li>
-		   		</ul>
-		   </span>
-                <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-		   		<ul>
-		   			<li><a href="#" class="menu_item">training</a></li>
-		   			<li><a href="index.php" class="menu_item">contact</a></li>
-		   		</ul>
-		   </span>
-
-                <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+      <ul class="row">
+       <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+          <ul>
+            <li><a href="aboutus.php" class="menu_item">About us</a></li>
+            <li><a href="services.php" class="menu_item">Services</a></li>
+            <li><a href="portfolio.php" class="menu_item">Portfolio</a></li>
+            <li><a href="team.php" class="menu_item">team</a></li>
+          </ul>
+       </span>
+        <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
+          <ul>
+            <li><a href="training.php" class="menu_item">training</a></li>
+            <li><a href="contact.php" class="menu_item">contact</a></li>
+          </ul>
+       </span>
+       
+       <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
          <li class="text-right" style="font-size:25px;">info@itresource.ru</li>
          <li class="text-right" style="font-size:25px;">+37495 88 33 66</li>
          <li class="text-right" style="font-size:25px;">Yerevan  st. Hakob hakobyan</li>
+         <i class="fa fa-facebook" aria-hidden="true"><a href="https://www.facebook.com/ITResources.ru/"></a></i>
+         <i class="fa fa-instagram" aria-hidden="true"><a href="#"></a></i>     
        </span>
 
+  
+      </ul>
+     </div>
 
-            </ul>
-        </div>
+</nav>
+ </header>
+</div>
 
-    </nav>
-
-</header>
-
-<div class="container">
+<div class="container" >
     <div class="row">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 
