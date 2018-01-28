@@ -68,11 +68,11 @@
 	<script src="js/CanvasRenderer.js"></script>
 	<script src="js/script.js"></script>
   <script src="js/modernizr.custom.js"></script>
-  <header>
+   <header>
 
   
      <h2 class="navbar-brand brand-name">
-          <a href="index.php">
+         <a href="index.php">
             <img class="img-responsive2"       
            src="img/logo/logo.png"  style="max-width:211px;margin-left:52px; position: fixed;"></a>
        </h2>
@@ -99,13 +99,13 @@
        </span>
         <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
           <ul>
-            <li><a href="training.php" class="menu_item">training</a></li>
+            <li><a href="#" class="menu_item">training</a></li>
             <li><a href="contact.php" class="menu_item">contact</a></li>
           </ul>
        </span>
        
        <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-         <li class="text-right" style="font-size:25px;">info@itresource.ru</li>
+         <li class="text-right" style="font-size:25px;">info@itresource.am</li>
          <li class="text-right" style="font-size:25px;">+37495 88 33 66</li>
          <li class="text-right" style="font-size:25px;">Yerevan  st. Hakob hakobyan</li>
          <i class="fa fa-facebook" aria-hidden="true"><a href="https://www.facebook.com/ITResources.ru/"></a></i>
@@ -122,7 +122,7 @@
 </div>
 
 <div id="contact">
-	<h3 class="page_title">Contact</h3>
+	<h1 class="page_title">Contact</h1>
 	<div class="container-fluid">
 		<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
@@ -136,21 +136,22 @@
           </ul>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-					<form action="" method="POST">
-						<?php 
-            error_reporting(0);
+          <?php
             include "sendmail.php";
-            ?>
+          ?>
+					<form action="" method="POST">
+	
 
 						<input type="text" name="name" placeholder="your name">
-						<input type="email" name="lastname" placeholder="your email">
+						<input type="text" name="lastname" placeholder="last name">
+						<input type="email" name="email" placeholder="your email">
 						<input type="text" name="subject" placeholder="subject">
 						<input type="tel" name="phone" placeholder="phone">
 						<textarea rows="4" cols="50" name="msg" class="input-xxlarge" style="margin: 18px 21.9844px 0px 0px; width: 300px; height: 199px;">     </textarea>
 					
             <input type="text" id="randomfield" disabled>
             <br><br>
-            <input  style="color:red;" id="CaptchaEnter" size="20" maxlength="6" />
+            <input   id="CaptchaEnter" size="20" maxlength="6" />
             <br><br>  
             <input type="submit"  name="sendmail" value="Send message" style="margin-top:20px;" onclick="check()">    
 					</form>

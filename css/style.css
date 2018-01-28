@@ -229,5 +229,8 @@ input[type=submit]:hover {
    canvas{
         display: none;
     }
-   
+   body
+   {
+   background-color: #000000;
+   }
 }

@@ -1,20 +1,23 @@
-<?php
-
+﻿<?php
+error_reporting(0);
 $name = $_POST['name'];
-$lastname = $_POST['lastname'];
-$subject = $_POST['subject'];
-$phone  = $_POST['phone'];
-$msg = $_POST['msg'];
+		$lastname = $_POST['lastname'];
+		$subject = "Message|Նամակ կայքից  ".$_POST['subject'];
+		$phone  = $_POST['phone'];
+		$msg = $_POST['msg'];
+		$to    =  'info@itresources.am';
+		$headers = $_POST['email'];
 
-$to    =  'info@itresources.ru';
+	if (isset($_POST['sendmail']) && strlen($name) > 3) 
+	{
+		
+		
 
-$subject = "Message|Նամակ կայքից";
+		$message = "name ".$name."lastname ".$lastname."Phone  ".$phone.'   Message'.$msg;
 
-$message = "name ".$name."</br>"."lastname ".$lastname."</br>"."Phone".$phone."</br>"."</br>".$msg;
 
-if (isset($_POST['sendmail']) && strlen($_POST['name']>3)) 
-{
-		mail($to, $subject,$message,$headers);
-}
+			mail($to, $subject,$message,$headers);
+			
+	}
 
 ?>

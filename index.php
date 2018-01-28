@@ -67,7 +67,7 @@
 	<script src="js/CanvasRenderer.js"></script>
 	<script src="js/script.js"></script>
   <script src="js/modernizr.custom.js"></script>
-  <header>
+     <header>
 
   
      <h2 class="navbar-brand brand-name">
@@ -104,7 +104,7 @@
        </span>
        
        <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-         <li class="text-right" style="font-size:25px;">info@itresource.ru</li>
+         <li class="text-right" style="font-size:25px;">info@itresource.am</li>
          <li class="text-right" style="font-size:25px;">+37495 88 33 66</li>
          <li class="text-right" style="font-size:25px;">Yerevan  st. Hakob hakobyan</li>
          <i class="fa fa-facebook" aria-hidden="true"><a href="https://www.facebook.com/ITResources.ru/"></a></i>
@@ -120,7 +120,7 @@
 </div>
 </div>
 
-
+<h1 class="page_title">itresources</h1>
 
 <!--libary js -->
 

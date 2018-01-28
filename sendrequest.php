@@ -1,4 +1,7 @@
 <?php
+error_reporting(0);
+if($_POST['click'])
+{
 
 
 $name = $_POST["name"];
@@ -16,15 +19,19 @@ $thred  = $_POST["thred"];
 
 
 
-$message = $name."</br>".$lastname."</br>".$email."</br>".$tel."</br>".$time."</br>".$priv."</br>".$grup."</br>".$msg."</br>".$first."</br>".$second."</br>".$thred;
+$message = $name."  ".$lastname."  ".$email."    ".$tel."       ".$time."       ".$priv."     ".$grup."  ".$msg."   ".$first."   ".$second."   ".$thred;
 
 
-$to      =   'info@itresources.ru';
+$to      =   'info@itresources.am';
 
 $subject = "Training|դասընաց";
 
-if (isset($_POST["click"]) and  strlen($name) > 0 and strlen($msg) > 0) {
+if (strlen($name) > 0 && strlen($msg) > 0) 
+{
 mail($to, $subject,$message,$headers);
+
+}
+
 }
 
 ?>
