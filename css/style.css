@@ -9,9 +9,12 @@ html
 }
 
 
+
 body
 {
 	background-color: #000000;
+	margin: 0px;
+
 }
 
 label
@@ -124,6 +127,8 @@ p
 	font-family: 'Titillium Web', sans-serif;
 }
 
+
+
 .button {
     background-color: #008E8F;
     border: none;
@@ -136,8 +141,43 @@ p
     margin: 4px 2px;
     cursor: pointer;
 }
+#contact input[type=text]
+{
+	background-color:#000000;
+	border: 2px solid #00B6F4;
+	font-size: 15px;
+	font-family: 'Titillium Web', sans-serif;
+	color:#FFFFFF;
 
+}
+#contact textarea
+{
+	
+	height: 200px;
+	background-color:#000000;
+	border: 2px solid #00B6F4;
+	font-size: 15px;
+	font-family: 'Titillium Web', sans-serif;
+	color:#FFFFFF;
+}
+#contact input[type=tel]
+{
+	background-color:#000000;
+	border: 2px solid #00B6F4;
+	font-size: 15px;
+	font-family: 'Titillium Web', sans-serif;
+	color:#FFFFFF;
 
+}
+
+#contact input[type=email]
+{
+	background-color:#000000;
+	border: 2px solid #00B6F4;
+	font-size: 15px;
+	font-family: 'Titillium Web', sans-serif;
+	color:#FFFFFF;
+}
 #team img
 {
 	max-width: 190px;
@@ -188,7 +228,8 @@ p
 {
 	color:#222222;
 }
-input[type=text], input[type=tel],input[type=email],select, textarea {
+input[type=text], input[type=tel],input[type=email],select, textarea 
+{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -197,10 +238,17 @@ input[type=text], input[type=tel],input[type=email],select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    
+}
+
+.maps
+{
+		width:500px;
+		height: 450px;
 }
 
 input[type=submit] {
-    background-color: #007FA2;
+    background-color: #2BC1EF;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -208,10 +256,7 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background-color: #000000;
-}
-*/
+
 
 
 
@@ -233,4 +278,12 @@ input[type=submit]:hover {
    {
    background-color: #000000;
    }
+}
+
+@media screen and (max-width: 1000px)  {
+   .maps
+	{
+		width:400px;
+		height: 350px;
+	}
 }
