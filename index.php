@@ -12,22 +12,24 @@
  
 <style type="text/css">
   
-  #randomfield { 
--webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; 
-  width: 200px;
-  color: black;
-  border-color: black;
-  text-align: center;
-  font-size: 40px;
-  background-image: url('http://4.bp.blogspot.com/-EEMSa_GTgIo/UpAgBQaE6-I/AAAAAAAACUE/jdcxZVXelzA/s1600/ca.png');
-}
+
 
 </style>
+
+<!--Recaptcha integration-->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113304120-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113304120-1');
+</script>
 
   <link rel="shortcut icon" href="img/favicon.ico" />
 
@@ -152,7 +154,7 @@
      
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/code.png" class="img img-responsive service_itr">
+               <img src="img/code.png" class="img img-responsive " style="max-width:128px;vertical-align: top;">
                <h3 class="vice_title">Web development</h3>
               <p class="text-justify">
                 ITR company offers web site creating processes which will be written in a responsive option. Using languages are HTML, CSS, JS, JQUERY, PHP, OOP, MSQL
@@ -162,7 +164,7 @@
 
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/web-design.png" class="img img-responsive service_itr" >
+               <img src="img/web-design.png" class="img img-responsive " style="max-width:128px;vertical-align: top;">
                <h3 class="vice_title">Web design</h3>
                  <p class="text-justify">
                 ITR company offers web design servises(UI&UX) at any difficulty. Our top-class specialists will help you create your design that will be matched to your business.
@@ -172,7 +174,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/mobile-app-icon.png" class="img img-responsive service_itr">
+               <img src="img/mobile-app-icon.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
                <h3 class="vice_title">Application development</h3>
                  <p class="text-justify">
                 ITR company offers application cearting processes for Windows, Android and IOS
@@ -182,7 +184,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/seo.png" class="img img-responsive service_itr">
+               <img src="img/seo.png" class="img img-responsive " style="max-width:128px;vertical-align: top;">
                <h3 class="vice_title">seo</h3>
                  <p class="text-justify">
                 Seo will improve the visibility of your website in search engines. You will get much more customers than expected. With our help your website will acquire highest positions in the search engine results on Google and Yandex.
@@ -195,7 +197,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/training.png" class="img img-responsive service_itr">
+               <img src="img/training.png" class="img img-responsive " style="max-width:128px;vertical-align: top;">
                <h3 class="vice_title">trainings</h3>
                  <p class="text-justify">
                 Subjects taught during the course include HTML, CSS, JQUERY, JS , PHP , MSQL and their most popular frameworks. After completing the course you will be able to create any responsive website. We offer both group and individual classes. The classes are held by highly qualified instructors.
@@ -205,7 +207,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/joystick.png" class="img img-responsive service_itr">
+               <img src="img/joystick.png" class="img img-responsive " style="max-width:128px;vertical-align: top;">
                <h3 class="vice_title">modeling and game development</h3>
                  <p class="text-justify">
                We carry out any size of complex projects providing with the most suitable 3D modelling solutions, such as character modelling etc. We will help you to realize your ideas by offering the most exciting, bright and creative solutions. Our services include preparing your 3d model for animation-rigging, skinning etc, rigging and animation for gaming.
@@ -338,11 +340,8 @@
             <input type="tel" name="phone" placeholder="phone">
             <textarea rows="4" cols="50" name="msg" class="input-xxlarge" style="margin: 18px 21.9844px 0px 0px;width:100%;">     </textarea>
           
-            <input style="border:0px;font-size:30px;color:black;" type="text" id="randomfield" disabled>
-            <br><br>
-            <input   id="CaptchaEnter" size="20" maxlength="6" />
-            <br><br>  
-            <input type="submit"  name="sendmail" value="Send message" style="margin-bottom:50px;" onclick="check()">    
+           <div class="g-recaptcha" data-sitekey="6Ld3ZUMUAAAAAMqpVec-OGtBG9qQO2zkWfEAmPom"></div>
+            <input type="submit" id="submit" name="sendmail" value="Send message" style="margin-bottom:50px;">    
           
           </form>
 

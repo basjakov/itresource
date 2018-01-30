@@ -27,7 +27,7 @@ label
 	margin-left:32px;
 	margin-top: 10px;
 	position: fixed;
-	z-index:2000;
+	z-index:1000;
 	background-color:#000000;
 }
 .footer

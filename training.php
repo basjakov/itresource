@@ -8,27 +8,10 @@
     <meta name="Description" content="Վեբ ծրագրավորման դասընթացեր։Դարձեք մրցունակ մասնագետ անցեք պրակտիկա և եղեք մեկ քայլ առաջ ">
     <meta name="Keywords" content="Այթի ռեսուրս,ծրագրավորման դասընթացներ,տտ դասընթացներ,պրակտիկա,ծրագրավորում">
 
-    <!-- Fonts -->
-
-    <style type="text/css">
-
-        #randomfield {
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            width: 200px;
-            color: black;
-            border-color: black;
-            text-align: center;
-            font-size: 40px;
-            background-image: url('http://4.bp.blogspot.com/-EEMSa_GTgIo/UpAgBQaE6-I/AAAAAAAACUE/jdcxZVXelzA/s1600/ca.png');
-        }
 
 
-    </style>
+    <!--recaptcha -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <link rel="shortcut icon" href="img/favicon.ico" />
 
@@ -151,12 +134,9 @@
                             <input type="checkbox" name="thred">
                             <label>thred lavel PHP, MySQL, OOP,basic  knowlange framework</label></br>
                            
-
-            <input type="text" id="randomfield" disabled>
-            <br><br>
-            <input   id="CaptchaEnter" size="20" maxlength="6" />
-            <br><br>  
-            <input type="submit"  name="click" value="Send request" style="margin-top:20px;" onclick="check()">  
+            <div class="g-recaptcha" data-sitekey="6Ld3ZUMUAAAAAMqpVec-OGtBG9qQO2zkWfEAmPom" style="margin:0.2em;"></div>
+             
+            <input type="submit" id="submit" name="click" value="Send request" style="margin-top:20px;" onclick="check()">  
             </form>
             </div>
     </div>
