@@ -21,7 +21,29 @@ label
 {
 	color:#DEDEDE;
 }
-/*20%*/
+.logo_itr
+{
+	max-width:211px;
+	margin-left:32px;
+	margin-top: 10px;
+	position: fixed;
+	z-index:2000;
+	background-color:#000000;
+}
+.footer
+{
+	left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    text-align: center;
+}
+.service_itr
+{
+	max-width:128px;
+	vertical-align: top;
+}
+
 .menu nav
 {
 		margin:22px 7% 0 20px;
@@ -286,4 +308,11 @@ input[type=submit] {
 		width:400px;
 		height: 350px;
 	}
+	h3
+	{
+		font-size:0.90rem;
+	}
 }
+
+
+

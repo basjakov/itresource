@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Itresources</title>
-	
+<head>	
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
 
-<title>itresources</title>
+<title>Itresources |WEB development and maintenance</title>
 <meta name="Description" content="“It resources” company was founded in 2016. The company specializes in offering web-programming processes and in offering web application development. Our company also does web-programming lessons. Օur purpose is to satisfy your requirements at reasonable prices.">
 <meta name="Keywords" content="itresources,web development,software development,armenian it,Վեբ ծրագրավորում,կայքերի պատրաստում,դասընթացներ,այթիռեսուրս веб разработка">
 
@@ -80,7 +78,7 @@
      <h2 class="navbar-brand brand-name">
          <a href="index.php" style="margin-top:20px;">
             <img class="img-responsive2"       
-           src="img/logo/logo.png"  style="max-width:211px;margin-left:52px;margin-top:2px;position: fixed;"></a>
+           src="img/logo/logo1.png"   style="max-width:211px;margin-left:32px;margin-top: 10px;position: fixed;z-index:2000;"></a>
        </h2>
 
             <div class="toggle-button" id="toggle" style="z-index: 5000;">
@@ -113,9 +111,9 @@
        </span>
        
        <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
-         <li class="text-right" style="font-size:25px;">info@itresources.am</li>
-         <li class="text-right" style="font-size:25px;">+37495 88 33 66</li>
-         <li class="text-right" style="font-size:25px;">Yerevan  st. Hakob hakobyan</li>
+         <li class="text-right" style="font-size:20px;">info@itresources.am</li>
+         <li class="text-right" style="font-size:20px;">+37495 88 33 66</li>
+         <li class="text-right" style="font-size:20px;">Yerevan  st. Hakob hakobyan</li>
          <div class="text-right">
               <a href="https://www.facebook.com/ITResources.ru/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
               <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>     
@@ -130,7 +128,7 @@
  </header>
 </div>
 </div>
-<div id="about"  style="width: 100%;margin-bottom:40%;margin-top:1em;">
+<div id="about"  style="width: 100%;margin-top:1em;">
 
 <div class="container">
 
@@ -154,7 +152,7 @@
      
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/code.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <img src="img/code.png" class="img img-responsive service_itr">
                <h3 class="vice_title">Web development</h3>
               <p class="text-justify">
                 ITR company offers web site creating processes which will be written in a responsive option. Using languages are HTML, CSS, JS, JQUERY, PHP, OOP, MSQL
@@ -164,7 +162,7 @@
 
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/web-design.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <img src="img/web-design.png" class="img img-responsive service_itr" >
                <h3 class="vice_title">Web design</h3>
                  <p class="text-justify">
                 ITR company offers web design servises(UI&UX) at any difficulty. Our top-class specialists will help you create your design that will be matched to your business.
@@ -174,7 +172,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/mobile-app-icon.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <img src="img/mobile-app-icon.png" class="img img-responsive service_itr">
                <h3 class="vice_title">Application development</h3>
                  <p class="text-justify">
                 ITR company offers application cearting processes for Windows, Android and IOS
@@ -184,7 +182,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/seo.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <img src="img/seo.png" class="img img-responsive service_itr">
                <h3 class="vice_title">seo</h3>
                  <p class="text-justify">
                 Seo will improve the visibility of your website in search engines. You will get much more customers than expected. With our help your website will acquire highest positions in the search engine results on Google and Yandex.
@@ -197,7 +195,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/training.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <img src="img/training.png" class="img img-responsive service_itr">
                <h3 class="vice_title">trainings</h3>
                  <p class="text-justify">
                 Subjects taught during the course include HTML, CSS, JQUERY, JS , PHP , MSQL and their most popular frameworks. After completing the course you will be able to create any responsive website. We offer both group and individual classes. The classes are held by highly qualified instructors.
@@ -207,7 +205,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/joystick.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <img src="img/joystick.png" class="img img-responsive service_itr">
                <h3 class="vice_title">modeling and game development</h3>
                  <p class="text-justify">
                We carry out any size of complex projects providing with the most suitable 3D modelling solutions, such as character modelling etc. We will help you to realize your ideas by offering the most exciting, bright and creative solutions. Our services include preparing your 3d model for animation-rigging, skinning etc, rigging and animation for gaming.
@@ -228,11 +226,11 @@
     <ul class="grid cs-style-4">
         <li>
           <figure>
-            <div><img src="img/portfolio/nla.jpg" class="img img-responsive" alt="nla.org"></div>
+            <div><img src="img/portfolio/nla.jpg" class="img img-responsive" alt="ustudy.am"></div>
             <figcaption>
-              <h3>www.nla.am</h3>
-              <span>national library armenia</span>
-              <a href="http://www.nla.am/" target="_blank">View</a>
+              <h3>nla.am</h3>
+              <span>by armenian national library</span>
+              <a href="http://www.ustudy.am/" target="_blank">View</a>
             </figcaption>
           </figure>
         </li>
@@ -344,7 +342,7 @@
             <br><br>
             <input   id="CaptchaEnter" size="20" maxlength="6" />
             <br><br>  
-            <input type="submit"  name="sendmail" value="Send message" style="margin-top:20px;" onclick="check()">    
+            <input type="submit"  name="sendmail" value="Send message" style="margin-bottom:50px;" onclick="check()">    
           
           </form>
 
@@ -357,7 +355,10 @@
     </div>
   </div>
 </div>
+<footer class="footer">
+  
 
+</footer>
 
 <!--libary js -->
 
