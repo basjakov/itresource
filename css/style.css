@@ -9,7 +9,6 @@ html
 }
 
 
-
 body
 {
 	background-color: #000000;
@@ -202,7 +201,7 @@ p
 }
 #team img
 {
-	max-width: 190px;
+	max-width: 116px;
 	max-height: 190px;
 }
 
@@ -269,8 +268,10 @@ input[type=text], input[type=tel],input[type=email],select, textarea
 		height: 450px;
 }
 
+
+
 input[type=submit] {
-    background-color: #2BC1EF;
+    background-color: #13baec;
     color: white;
     padding: 12px 20px;
     border: none;

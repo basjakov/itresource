@@ -65,7 +65,7 @@
 
 
 </head>
-<body onLoad="ChangeCaptcha()">
+<body >
 
 <div id="home">
 
@@ -77,13 +77,16 @@
     <script src="js/modernizr.custom.js"></script>
 
      <header>
+      
+        
+      
      <h2 class="navbar-brand brand-name">
          <a href="index.php" style="margin-top:20px;">
             <img class="img-responsive2"       
-           src="img/logo/logo1.png"   style="max-width:211px;margin-left:32px;margin-top: 10px;position: fixed;z-index:2000;"></a>
+           src="img/logo/logo1.png"   style="max-width:211px;margin-left:32px;margin-top: 10px;position: fixed;z-index:2000;background-color:#000000;"></a>
        </h2>
 
-            <div class="toggle-button" id="toggle" style="z-index: 5000;">
+            <div class="toggle-button" id="toggle" style="z-index: 2000;">
                 
                 <span class="bar top"></span>
                 <span class="bar middle"></span>
@@ -154,7 +157,7 @@
      
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/code.png" class="img img-responsive " style="max-width:128px;vertical-align: top;">
+               <img src="img/code.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">Web development</h3>
               <p class="text-justify">
                 ITR company offers web site creating processes which will be written in a responsive option. Using languages are HTML, CSS, JS, JQUERY, PHP, OOP, MSQL
@@ -164,7 +167,7 @@
 
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/web-design.png" class="img img-responsive " style="max-width:128px;vertical-align: top;">
+               <img src="img/web-design.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">Web design</h3>
                  <p class="text-justify">
                 ITR company offers web design servises(UI&UX) at any difficulty. Our top-class specialists will help you create your design that will be matched to your business.
@@ -174,7 +177,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/mobile-app-icon.png" class="img img-responsive" style="max-width:128px;vertical-align: top;">
+               <img src="img/mobile-app-icon.png" class="img img-responsive" style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">Application development</h3>
                  <p class="text-justify">
                 ITR company offers application cearting processes for Windows, Android and IOS
@@ -184,7 +187,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/seo.png" class="img img-responsive " style="max-width:128px;vertical-align: top;">
+               <img src="img/seo.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">seo</h3>
                  <p class="text-justify">
                 Seo will improve the visibility of your website in search engines. You will get much more customers than expected. With our help your website will acquire highest positions in the search engine results on Google and Yandex.
@@ -197,7 +200,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/training.png" class="img img-responsive " style="max-width:128px;vertical-align: top;">
+               <img src="img/training.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">trainings</h3>
                  <p class="text-justify">
                 Subjects taught during the course include HTML, CSS, JQUERY, JS , PHP , MSQL and their most popular frameworks. After completing the course you will be able to create any responsive website. We offer both group and individual classes. The classes are held by highly qualified instructors.
@@ -207,7 +210,7 @@
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
-               <img src="img/joystick.png" class="img img-responsive " style="max-width:128px;vertical-align: top;">
+               <img src="img/joystick.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">modeling and game development</h3>
                  <p class="text-justify">
                We carry out any size of complex projects providing with the most suitable 3D modelling solutions, such as character modelling etc. We will help you to realize your ideas by offering the most exciting, bright and creative solutions. Our services include preparing your 3d model for animation-rigging, skinning etc, rigging and animation for gaming.
@@ -278,28 +281,28 @@
   <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img src="img/team/team.png" class="img img-responsive2">
+          <img src="img/team/team.png" class="img img-responsive2 team_img">
           <span class="team_member">David shahbazian</span>
           <span class="team_member_position">Ceo</span>
         </div>  
 
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img src="img/team/team.png" class="img img-responsive2">
+          <img src="img/team/team.png" class="img img-responsive2 team_img">
           <span class="team_member">Hayk Hayrapetian</span>
           <span class="team_member_position">Ceo</span>
         </div>  
 
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img src="img/team/team.png" class="img img-responsive2">
+          <img src="img/team/team.png" class="img img-responsive2" class="team_img">
           <span class="team_member">Gohar Baghdasarian</span>
           <span class="team_member_position">Web desinger</span>
         </div>  
 
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img src="img/team/team.png" class="img img-responsive2">
+          <img src="img/team/team.png" class="img img-responsive2" class="team_img">
           <span class="team_member">Syuzanna Tumasyan</span>
           <span class="team_member_position">marketing manager</span>
         </div>  
@@ -340,7 +343,7 @@
             <input type="tel" name="phone" placeholder="phone">
             <textarea rows="4" cols="50" name="msg" class="input-xxlarge" style="margin: 18px 21.9844px 0px 0px;width:100%;">     </textarea>
           
-           <div class="g-recaptcha" data-sitekey="6Ld3ZUMUAAAAAMqpVec-OGtBG9qQO2zkWfEAmPom"></div>
+           <div class="g-recaptcha col ml-auto" data-sitekey="6Ld3ZUMUAAAAAMqpVec-OGtBG9qQO2zkWfEAmPom" style="margin:20px;"></div>
             <input type="submit" id="submit" name="sendmail" value="Send message" style="margin-bottom:50px;">    
           
           </form>
@@ -354,7 +357,7 @@
     </div>
   </div>
 </div>
-<footer class="footer">
+<footer class="footer" style="margin-top:1em;">
   
 
 </footer>
