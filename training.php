@@ -104,7 +104,7 @@
 <div class="container" >
     <div class="row">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-
+                Subjects taught during the course include HTML5, CSS3, jQuery, Javascript, PHP , MSQL, AJAX, WORDPRESS, LARAVEL and their most popular frameworks. After completing the course you will be able to create any responsive website. We offer both group and individual classes. The classes are held by highly qualified instructors.
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8s col-lg-8">
                     <form action="" method="post">
@@ -124,7 +124,7 @@
                                 
                             </textarea></br>
 
-                            <label>What do you want to learnou you wont learning</label></br>
+                            <label>What do you want to learn you wont learning</label></br>
               
                             <input type="checkbox" name="first" >
                             <label>first lavel html(5),css(3)</label></br>

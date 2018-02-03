@@ -65,7 +65,7 @@
 
 
 </head>
-<body >
+<body style="overflow-x:hidden;">
 
 <div id="home">
 
@@ -101,7 +101,7 @@
        <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
           <ul>
             <img src="img/logo/itr.png" style="width:64px;margin:auto;">
-            <h1 class="page_title">itresources</h1>
+            
             <li><a href="#about" class="menu_item">About us</a></li>
             <li><a href="#services" class="menu_item">Services</a></li>
             <li><a href="#portfolio" class="menu_item">Portfolio</a></li>
@@ -133,16 +133,19 @@
  </header>
 </div>
 </div>
-<div id="about"  style="width: 100%;margin-top:1em;">
+</div>
+<div id="about"  style="width: 70%;margin-top:12em;">
 
 <div class="container">
 
    
      <h2 class="page_title">About us</h2>
     
-    <p class="text-justify">
+    <p class="text-center" >
            
-            “It resources” company was founded in 01.17.2016. Company specializes in offering web-programming processes and in offering web application developmet. Our company also does web-programming lessons. Օur purpose is to satisfy your requirements at reasonable prices. If you want to give reliable solutions to your problems , our company will become your loyal partners. Our mission is to have our influental role in IT sphere. Customer satsifaction is the most important mission for us. We want to create original, good work and to keep stable quality.
+We are a full stack development company specializing on Web and mobile development. Our team with our employees have started their activity since 2007, but as a company “ITResources” was founded 17.11.13. We have programmers who have more than 12 years’ experience. We provide our customers with solutions to their needs, offering the best cost-benefit service in developing the software for their organization . We care about your budget and timeline. No deadlocks – ever. Because we respect your had-earned money and value your time. We have the responsibility, the commitment and a strong vocation of service in all the situations related to our clients. We are always available for you.  Our mission is to provide quality technology services in an efficient and effective approach to achieve high customer satisfaction. Our pledge is to provide friendly, helpful service, to listen to your feedback and use it to assess and improve the services we offer, to accept responsibility and maintain high standards.
+
+
            
     </p>
      
@@ -150,47 +153,47 @@
 </div>
  </div>
 </div>
-<div id="services" style="margin-top: 7%;"  >
+<div id="services" style="margin-top:25%;"  >
 <h2 class="page_title">Services</h2>
 <div class="container">
    <div class="row">
      
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" >
           <div class="text-center">
                <img src="img/code.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">Web development</h3>
               <p class="text-justify">
-                ITR company offers web site creating processes which will be written in a responsive option. Using languages are HTML, CSS, JS, JQUERY, PHP, OOP, MSQL
+                Want a fresh, functional, and mobile-ready website that will help you reach all of your online marketing goals? We can help with that. Turn your website into a machine that works for you, not against you.We test as we build, using best practices to make sure your website is sustainable for the long term. 
               </p>
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" >
           <div class="text-center">
                <img src="img/web-design.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">Web design</h3>
                  <p class="text-justify">
-                ITR company offers web design servises(UI&UX) at any difficulty. Our top-class specialists will help you create your design that will be matched to your business.
+                In a digital age, graphics play an important role in how your product is perceived. We offer you a freedom to implement your design ideas. Combine your dreams with our designers' skills and you will get a unique design and compelling user experience for your website.. 
               </p>
           </div>
         </div>
 
-         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" >
           <div class="text-center">
                <img src="img/mobile-app-icon.png" class="img img-responsive" style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">Application development</h3>
                  <p class="text-justify">
-                ITR company offers application cearting processes for Windows, Android and IOS
+                In this tech savvy age, a business without a popular app lacks competitive advantage. Every app we produce has to surpass certain quality benchmarks. But achieving such ambitious goals requires a development team unlike any other. We help you build apps for your business, consumers and enterprise at a fixed price or can augment your current team for finite period.
               </p>
           </div>
         </div>
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-          <div class="text-center">
+          <div class="text-center" >
                <img src="img/seo.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
-               <h3 class="vice_title">seo</h3>
+               <h3 class="vice_title" style="margin:15px;">seo</h3>
                  <p class="text-justify">
-                Seo will improve the visibility of your website in search engines. You will get much more customers than expected. With our help your website will acquire highest positions in the search engine results on Google and Yandex.
+                Do you want your website to be found in the search engines? Do you want a consistent, long-term stream of visitors to your website? SEO is a great solution. We happen to be really good at SEO too. With our help your website will acquire highest position in the search engine results on Google,bing,yahoo and Yandex.
               </p>
             </br>
           </br>
@@ -206,14 +209,14 @@
                 Subjects taught during the course include HTML, CSS, JQUERY, JS , PHP , MSQL and their most popular frameworks. After completing the course you will be able to create any responsive website. We offer both group and individual classes. The classes are held by highly qualified instructors.
               </p>
           </div>
-        </div>
+        </div> 
 
          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <div class="text-center">
                <img src="img/joystick.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">modeling and game development</h3>
                  <p class="text-justify">
-               We carry out any size of complex projects providing with the most suitable 3D modelling solutions, such as character modelling etc. We will help you to realize your ideas by offering the most exciting, bright and creative solutions. Our services include preparing your 3d model for animation-rigging, skinning etc, rigging and animation for gaming.
+               Gaming is always fun when played on larger screen. We help you reach the living rooms and go beyond finger touch to a much versatile gaming experience. Our skilful engineers and designers use the latest technological achievements in order to create the best gaming apps.
               </p>
           </div>
         </div>
@@ -222,7 +225,7 @@
   </div>
 </div>  
 </div>
-<div id="portfolio">
+<div id="portfolio" >
   
 <div class="container">
 
@@ -315,7 +318,10 @@
   <h2 class="page_title">Contact</h2>
   <div class="container-fluid">
     <div class="row">
+
+    
         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+          <p class="text-left" style="max-width: 500px;">  We're always happy to chat about what we do, and how it can help your business. Get in touch with us and start the conversation. We'd love to hear from you.</p>
           <div id="map_canvas" style="margin-bottom: 210px;">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d761.8541954754226!2d44.491463!3d40.199791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfcd60dca516cdb29!2sMergelyan+Institute!5e0!3m2!1sen!2sus!4v1517235788028" class="maps" frameborder="0" style="border:0" allowfullscreen></iframe>
             <div>
