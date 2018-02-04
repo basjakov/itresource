@@ -319,11 +319,11 @@ We are a full stack development company specializing on Web and mobile developme
   <div class="container-fluid">
     <div class="row">
 
-    
+      
         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
           <p class="text-left" style="max-width: 500px;">  We're always happy to chat about what we do, and how it can help your business. Get in touch with us and start the conversation. We'd love to hear from you.</p>
           <div id="map_canvas" style="margin-bottom: 210px;">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d761.8541954754226!2d44.491463!3d40.199791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfcd60dca516cdb29!2sMergelyan+Institute!5e0!3m2!1sen!2sus!4v1517235788028" class="maps" frameborder="0" style="border:0" allowfullscreen></iframe>
+               <iframe src="map.php" class="maps" frameborder="0" style="border:0" allowfullscreen></iframe>
             <div>
           
               <label>info@itresource.am</label><br>
@@ -370,6 +370,8 @@ We are a full stack development company specializing on Web and mobile developme
 
 <!--libary js -->
 
+        
+
   <script src="js/jquery-3.1.1.min.js"  crossorigin="anonymous"></script>
 
   <script src="js/tether.min.js" crossorigin="anonymous"></script>
@@ -380,6 +382,7 @@ We are a full stack development company specializing on Web and mobile developme
   <!-- // -->
   <script src="js/toucheffects.js"></script>
           
+
   </div>
 </body>
 </html>
