@@ -102,11 +102,13 @@
 </div>
 <h1 class="page_title">training</h1>
 <div class="container" >
+  
     <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="margin-bottom:76%;">
                 Subjects taught during the course include HTML5, CSS3, jQuery, Javascript, PHP , MSQL, AJAX, WORDPRESS, LARAVEL and their most popular frameworks. After completing the course you will be able to create any responsive website. We offer both group and individual classes. The classes are held by highly qualified instructors.
-            </div>
+      </div>
             <div class="col-xs-12 col-sm-8 col-md-8s col-lg-8">
+
                     <form action="" method="post">
                       <?php
                         include "sendrequest.php";
