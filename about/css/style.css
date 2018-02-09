@@ -1,0 +1,51 @@
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+p, a {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+  font-family: Courier, monospace;
+  font-smoothing: antialiased;
+  margin: 0.8em 0;
+  font-size: 18px;
+  color: #28B4DE;
+}
+p, a:hover 
+{
+  color: #FFFFFF;  
+}
+
+.ghost,
+.glitch {
+  opacity: 0.25;
+}
+
+#message {
+  margin-left: -300px;
+  margin-top: -130px;
+  position: absolute;
+  height: 460px;
+  width: 1260px;
+  left: 50%;
+  top: 50%;
+}
+
+#animate {
+  text-shadow: 0 0 8px rgba(209, 194, 165, 0.1);
+  position: absolute;
+  color: #28B4DE;
+  bottom: 0;
+}
+
+#container {
+  
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+

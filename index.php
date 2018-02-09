@@ -121,6 +121,7 @@
          <li class="text-right" style="font-size:20px;">Yerevan  st. Hakob hakobyan</li>
          <div class="text-right">
               <a href="https://www.facebook.com/ITResources.ru/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/company/itresources-development/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
               <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>     
          </div>
        </span>
@@ -140,16 +141,14 @@
 
    
      <h2 class="page_title">About us</h2>
-    
-    <p class="text-center" >
-           
-We are a full stack development company specializing on Web and mobile development. Our team with our employees have started their activity since 2007, but as a company “ITResources” was founded 17.11.13. We have programmers who have more than 12 years’ experience. We provide our customers with solutions to their needs, offering the best cost-benefit service in developing the software for their organization . We care about your budget and timeline. No deadlocks – ever. Because we respect your had-earned money and value your time. We have the responsibility, the commitment and a strong vocation of service in all the situations related to our clients. We are always available for you.  Our mission is to provide quality technology services in an efficient and effective approach to achieve high customer satisfaction. Our pledge is to provide friendly, helpful service, to listen to your feedback and use it to assess and improve the services we offer, to accept responsibility and maintain high standards.
-
-
-           
+    <p class="text-center ab_mob">
+    We are a full stack development company specializing on Web and mobile development.
+    Our team with our employees have started their activity since 2007, but as a company “ITResources” was founded 17.11.13.We have programmers who have more than 12 years’ experience. We provide our customers with solutions to their needs, offering the best cost-benefit service in developing the software for their organization .We care about your budget and timeline. No deadlocks – ever. Because we respect your had-earned money and value your time. We have the responsibility, the commitment and a strong vocation of service in all the situations related to our clients. We are always available for you.Our mission is to provide quality technology services in an efficient and effective approach to achieve high customer satisfaction.Our pledge is to provide friendly, helpful service, to listen to your feedback and use it to assess and improve the services we offer,to accept responsibility and maintain high standards.
     </p>
-     
-
+  
+      <iframe class="big_dasktop" src="about/about.html" style="width:900px;height:850px;border:0;">
+             
+        </iframe>
 </div>
  </div>
 </div>
@@ -237,7 +236,7 @@ We are a full stack development company specializing on Web and mobile developme
             <div><img src="img/portfolio/nla.jpg" class="img img-responsive" alt="ustudy.am"></div>
             <figcaption>
               <h3>nla.am</h3>
-              <span>by armenian national library</span>
+              <span>armenian national library</span>
               <a href="http://www.ustudy.am/" target="_blank">View</a>
             </figcaption>
           </figure>
