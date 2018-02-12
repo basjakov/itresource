@@ -63,6 +63,11 @@
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
+     
+   
+  <script src="js/jquery-3.1.1.min.js"  crossorigin="anonymous"></script>
+
+  
 
 </head>
 <body style="overflow-x:hidden;">
@@ -156,9 +161,20 @@
 <h2 class="page_title">Services</h2>
 <div class="container">
    <div class="row">
-     
+   
+
+
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" >
+          
           <div class="text-center">
+             <div class="services">
+              <div id="center"></div>
+              <div id="sat0">web</div>
+              <div id="sat1">dev</div>
+              <div id="sat2">sss</div>
+              <div id="sat3">sss</div>
+              <div id="sat4">sss</div>
+          </div>
                <img src="img/code.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
                <h3 class="vice_title">Web development</h3>
               <p class="text-justify">
@@ -282,32 +298,57 @@
   <h2 class="page_title">Our team</h2>
   <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img src="img/team/team.png" class="img img-responsive2 team_img">
-          <span class="team_member">David shahbazian</span>
-          <span class="team_member_position">Ceo</span>
-        </div>  
+           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <input type="submit" class="btn btn-info" data-toggle="collapse" data-target="#executive" value="executive Director">
+                 <div id="executive" class="collapse">          
+                
+                     <img src="img/team/team.png" class="img img-responsive2 team_img">
+                     <span class="team_member">David shahbazian</span>
+                    <span class="team_member_position">Ceo</span>
+                 </div>  
+           </div>
+ 
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <input type="submit"  data-toggle="collapse" data-target="#managers" value="Project Managers">
+                 <div id="managers" class="collapse">          
+                
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                             <img src="img/team/team.png" class="img img-responsive2" class="team_img">
+                             <span class="team_member">Syuzanna Tumasyan</span>
+                            <span class="team_member_position">marketing manager</span>
+                        </div> 
+                 </div>  
+           </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <input type="submit"  data-toggle="collapse" data-target="#technicalstaff" value="Technical staff">
+              <div id="technicalstaff" class="collapse" style="max-width:450px;">     
+                  <div>
+                      <img src="img/team/team.png" class="img img-responsive2" class="team_img">
+                      <span class="team_member">Gohar Baghdasarian</span>
+                      <span class="team_member_position">Web desinger</span>
+                  </div>
+                  <div>
+                      <img src="img/team/team.png" class="img img-responsive2" class="team_img">
+                      <span class="team_member">Ashot Mxitaryan</span>
+                     <span class="team_member_position">Senior Full stack Developer</span>
+                  </div>
+              </div> 
 
+           </div>
+       
+        
 
+<!--
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <img src="img/team/team.png" class="img img-responsive2 team_img">
           <span class="team_member">Hayk Hayrapetian</span>
           <span class="team_member_position">Ceo</span>
         </div>  
+-->
 
+     
 
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img src="img/team/team.png" class="img img-responsive2" class="team_img">
-          <span class="team_member">Gohar Baghdasarian</span>
-          <span class="team_member_position">Web desinger</span>
-        </div>  
-
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img src="img/team/team.png" class="img img-responsive2" class="team_img">
-          <span class="team_member">Syuzanna Tumasyan</span>
-          <span class="team_member_position">marketing manager</span>
-        </div>  
+      
 
       </div>
   </div>
@@ -369,18 +410,78 @@
 
 <!--libary js -->
 
-        
-
-  <script src="js/jquery-3.1.1.min.js"  crossorigin="anonymous"></script>
+  
 
   <script src="js/tether.min.js" crossorigin="anonymous"></script>
 
   <script src="js/bootstrap.min.js"  crossorigin="anonymous"></script>
 
-  <script  src="js/overlay.js"></script>
-  <!-- // -->
-  <script src="js/toucheffects.js"></script>
-          
+    <script  src="js/overlay.js"></script>
+    <!-- // -->
+     <script src="js/toucheffects.js"></script>
+  
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <script src="js/jquery-3.1.1.min.js"  crossorigin="anonymous"></script>
+
+      <style type="text/css">
+   .services div {
+    
+    
+    position:absolute;
+}
+#center {
+    width:200px;
+    height:200px;
+    left:100px;
+    top:100px;
+    
+}
+#sat0, #sat1, #sat2, #sat3, #sat4 {
+    width:50px;
+    height:50px;
+    
+}
+  </style>
+  <script type="text/javascript">
+    var pos = $('#center').position(),
+    radiusSat = $('#sat1').width() * 0.5,
+    radius = $('#center').width() * 0.5,
+    cx = pos.left + radius,
+    cy = pos.top + radius,
+    x, y, angle = 0, angles = [],
+    spc = 360 / 5,
+    deg2rad = Math.PI / 180,
+    i = 0;
+
+for(;i < 5; i++) {
+    angles.push(angle);
+    angle += spc;
+}
+
+/// space out radius
+radius += (radiusSat + 10);
+
+loop();
+
+function loop() {
+
+    for(var i = 0; i < angles.length; i++) {
+
+        angle = angles[i];
+        
+        x = cx + radius * Math.cos(angle * deg2rad);
+        y = cy + radius * Math.sin(angle * deg2rad);
+
+        $('#sat' + i).css({left:x - radiusSat, top:y - radiusSat});
+    
+        angles[i] = angles[i] + 1;
+        if (angles[i] > 360) angles[i] = 0;
+    }
+    
+    requestAnimationFrame(loop);
+}
+  </script>
 
   </div>
 </body>
