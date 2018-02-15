@@ -162,7 +162,7 @@ p
     margin: 4px 2px;
     cursor: pointer;
 }
-#contact input[type=text]
+ input[type=text]
 {
 	background-color:#000000;
 	border: 2px solid #00B6F4;
@@ -171,7 +171,7 @@ p
 	color:#FFFFFF;
 
 }
-#contact textarea
+ textarea
 {
 	
 	height: 200px;
@@ -181,7 +181,7 @@ p
 	font-family: 'Titillium Web', sans-serif;
 	color:#FFFFFF;
 }
-#contact input[type=tel]
+ input[type=tel]
 {
 	background-color:#000000;
 	border: 2px solid #00B6F4;
@@ -191,7 +191,7 @@ p
 
 }
 
-#contact input[type=email]
+ input[type=email]
 {
 	background-color:#000000;
 	border: 2px solid #00B6F4;

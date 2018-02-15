@@ -47,19 +47,21 @@
 
   <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 
+
 <!--bootstrap-->
 
   <link rel="stylesheet" href="css/bootstrap.min.css"  crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/bootstrap-grid.min.css"  crossorigin="anonymous">
 
- 
+  
  <!--css-->
+
 
    <link rel="stylesheet" type="text/css" href="css/component.css" />
    <link rel="stylesheet" type="text/css" href="css/default.css"/>
    <link type="text/css" rel="stylesheet" href="css/overlay.css">
-  
+   
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -102,17 +104,17 @@
           <ul>
             <img src="img/logo/itr.png" style="width:64px;margin:auto;">
             
-            <li><a href="#about" class="menu_item">About us</a></li>
-            <li><a href="#services" class="menu_item">Services</a></li>
-            <li><a href="#portfolio" class="menu_item">Portfolio</a></li>
-            <li><a href="#team" class="menu_item">team</a></li>
+            <li><a href="index.php#about" class="menu_item">About us</a></li>
+            <li><a href="index.php#services" class="menu_item">Services</a></li>
+            <li><a href="index.php#portfolio" class="menu_item">Portfolio</a></li>
+            <li><a href="index.php#team" class="menu_item">team</a></li>
           </ul>
        </span>
         <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
           <ul>
             <li><a href="training.php" class="menu_item">training</a></li>
             <li><a href="careers.php" class="menu_item">careers</a></li>
-            <li><a href="#contact" class="menu_item">contact</a></li>
+            <li><a href="index.php#contact" class="menu_item">contact</a></li>
             
           </ul>
        </span>
@@ -152,12 +154,18 @@
         </div>
         <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
           <form method="POST" action="">
+            <?php
+                include "sendrezume.php";
+            ?>
                 <input type="text" name="name" placeholder="your name">
                 <input type="text" name="lastname" placeholder="last name">
                 <input type="email" name="email" placeholder="your email">
+                <input type="text" name="phone" placeholder="your phone">
                 <label>Your Rezume</label>
-                <input type="file" name="file">
-                <textarea></textarea>
+                <input type="file" name="fileToUpload">
+                <textarea name="msg"></textarea>
+                 <div class="g-recaptcha col ml-auto" data-sitekey="6Ld3ZUMUAAAAAMqpVec-OGtBG9qQO2zkWfEAmPom" style="margin:20px;"></div>
+                <input type="submit" name="sendrezume" value="Send Rezume">
             </form>
         </div>
     </div>
