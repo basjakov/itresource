@@ -79,6 +79,7 @@
         <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
           <ul>
             <li><a href="training.php" class="menu_item">training</a></li>
+            <li><a href="careers.php" class="menu_item">careers</a></li>
             <li><a href="index.php#contact" class="menu_item">contact</a></li>
           </ul>
        </span>

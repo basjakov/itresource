@@ -15,13 +15,14 @@
 
 
 </style>
-
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <!--Recaptcha integration-->
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113304120-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -59,13 +60,13 @@
    <link rel="stylesheet" type="text/css" href="css/component.css" />
    <link rel="stylesheet" type="text/css" href="css/default.css"/>
    <link type="text/css" rel="stylesheet" href="css/overlay.css">
-  
+   <link rel="stylesheet" type="text/css" href="css/popup.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
-     
+    
    
-  <script src="js/jquery-3.1.1.min.js"  crossorigin="anonymous"></script>
+
 
   
 
@@ -116,7 +117,9 @@
         <span class="col-sm-12 col-md-4 col-lg-4 col-xl-4 ">
           <ul>
             <li><a href="training.php" class="menu_item">training</a></li>
+            <li><a href="careers.php" class="menu_item">careers</a></li>
             <li><a href="#contact" class="menu_item">contact</a></li>
+            
           </ul>
        </span>
        
@@ -157,7 +160,7 @@
 </div>
  </div>
 </div>
-<div id="services" style="margin-top:25%;"  >
+<div id="services">
 <h2 class="page_title">Services</h2>
 <div class="container">
    <div class="row">
@@ -169,78 +172,75 @@
           <div class="text-center">
              <div class="services">
               <div id="center"></div>
-              <div id="sat0">web</div>
-              <div id="sat1">dev</div>
-              <div id="sat2">sss</div>
-              <div id="sat3">sss</div>
-              <div id="sat4">sss</div>
+              <div id="sat0"><a class="btn" data-popup-open="popup-1" href="#"><img src="img/code.png" class="img img-responsive " style="max-width:112px;vertical-align: top;"></a></div>
+              <div id="sat1"><a class="btn" data-popup-open="popup-2" href="#"><img src="img/web-design.png" class="img img-responsive " style="max-width:112px;vertical-align: top;"></a></div>
+              <div id="sat2"><a class="btn" data-popup-open="popup-3" href="#"><img src="img/mobile-app-icon.png" class="img img-responsive" style="max-width:112px;vertical-align: top;"></a></div>
+              <div id="sat3"><a class="btn" data-popup-open="popup-4" href="#"> <img src="img/seo.png" class="img img-responsive " style="max-width:112px;vertical-align: top;"></a></div>
+              <div id="sat4"><a class="btn" data-popup-open="popup-5" href="#"><img src="img/training.png" class="img img-responsive " style="max-width:112px;vertical-align: top;"></a></div>
+              <div id="sat5"><a class="btn" data-popup-open="popup-6" href="#"><img src="img/joystick.png" class="img img-responsive " style="max-width:112px;vertical-align: top;"></a></div>
+               
           </div>
-               <img src="img/code.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
-               <h3 class="vice_title">Web development</h3>
-              <p class="text-justify">
-                Want a fresh, functional, and mobile-ready website that will help you reach all of your online marketing goals? We can help with that. Turn your website into a machine that works for you, not against you.We test as we build, using best practices to make sure your website is sustainable for the long term. 
-              </p>
-          </div>
-        </div>
 
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" >
-          <div class="text-center">
-               <img src="img/web-design.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
-               <h3 class="vice_title">Web design</h3>
-                 <p class="text-justify">
-                In a digital age, graphics play an important role in how your product is perceived. We offer you a freedom to implement your design ideas. Combine your dreams with our designers' skills and you will get a unique design and compelling user experience for your website.. 
-              </p>
-          </div>
-        </div>
+            <div class="popup" data-popup="popup-1">
+<div class="popup-inner">
+<h2>Web development</h2>
+<p> Want a fresh, functional, and mobile-ready website that will help you reach all of your online marketing goals? We can help with that. Turn your website into a machine that works for you, not against you.We test as we build, using best practices to make sure your website is sustainable for the long term. </p>
+<p><a data-popup-close="popup-1" href="#">Close</a></p>
+<a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+</div>
+</div>
 
-         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" >
-          <div class="text-center">
-               <img src="img/mobile-app-icon.png" class="img img-responsive" style="max-width:112px;vertical-align: top;">
-               <h3 class="vice_title">Application development</h3>
-                 <p class="text-justify">
-                In this tech savvy age, a business without a popular app lacks competitive advantage. Every app we produce has to surpass certain quality benchmarks. But achieving such ambitious goals requires a development team unlike any other. We help you build apps for your business, consumers and enterprise at a fixed price or can augment your current team for finite period.
-              </p>
-          </div>
-        </div>
+<div class="popup" data-popup="popup-2">
+<div class="popup-inner">
+<h2>Web design</h2>
+<p> In a digital age, graphics play an important role in how your product is perceived. We offer you a freedom to implement your design ideas. Combine your dreams with our designers' skills and you will get a unique design and compelling user experience for your website.. .</p>
+<p><a data-popup-close="popup-2" href="#">Close</a></p>
+<a class="popup-close" data-popup-close="popup-2" href="#">x</a>
+</div>
+</div>
 
-         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-          <div class="text-center" >
-               <img src="img/seo.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
-               <h3 class="vice_title" style="margin:15px;">seo</h3>
-                 <p class="text-justify">
-                Do you want your website to be found in the search engines? Do you want a consistent, long-term stream of visitors to your website? SEO is a great solution. We happen to be really good at SEO too. With our help your website will acquire highest position in the search engine results on Google,bing,yahoo and Yandex.
-              </p>
-            </br>
-          </br>
-          </br>
-          </div>
-        </div>
+<div class="popup" data-popup="popup-3">
+<div class="popup-inner">
+<h2>Application development</h2>
+<p>In this tech savvy age, a business without a popular app lacks competitive advantage. Every app we produce has to surpass certain quality benchmarks. But achieving such ambitious goals requires a development team unlike any other. We help you build apps for your business, consumers and enterprise at a fixed price or can augment your current team for finite period..</p>
+<p><a data-popup-close="popup-3" href="#">Close</a></p>
+<a class="popup-close" data-popup-close="popup-3" href="#">x</a>
+</div>
+</div>
 
-         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-          <div class="text-center">
-               <img src="img/training.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
-               <h3 class="vice_title">trainings</h3>
-                 <p class="text-justify">
-                Subjects taught during the course include HTML, CSS, JQUERY, JS , PHP , MSQL and their most popular frameworks. After completing the course you will be able to create any responsive website. We offer both group and individual classes. The classes are held by highly qualified instructors.
-              </p>
-          </div>
-        </div> 
+<div class="popup" data-popup="popup-4">
+<div class="popup-inner">
+<h2>Seo optimization</h2>
+<p> Do you want your website to be found in the search engines? Do you want a consistent, long-term stream of visitors to your website? SEO is a great solution. We happen to be really good at SEO too. With our help your website will acquire highest position in the search engine results on Google,bing,yahoo and Yandex.</p>
+<p><a data-popup-close="popup-4" href="#">Close</a></p>
+<a class="popup-close" data-popup-close="popup-4" href="#">x</a>
+</div>
+</div>
 
-         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-          <div class="text-center">
-               <img src="img/joystick.png" class="img img-responsive " style="max-width:112px;vertical-align: top;">
-               <h3 class="vice_title">modeling and game development</h3>
-                 <p class="text-justify">
-               Gaming is always fun when played on larger screen. We help you reach the living rooms and go beyond finger touch to a much versatile gaming experience. Our skilful engineers and designers use the latest technological achievements in order to create the best gaming apps.
-              </p>
-          </div>
-        </div>
+<div class="popup" data-popup="popup-5">
+<div class="popup-inner">
+<h2>trainings</h2>
+<p> Subjects taught during the course include HTML, CSS, JQUERY, JS , PHP , MSQL and their most popular frameworks. After completing the course you will be able to create any responsive website. We offer both group and individual classes. The classes are held by highly qualified instructors.</p>
+<p><a data-popup-close="popup-5" href="#">Close</a></p>
+<a class="popup-close" data-popup-close="popup-5" href="#">x</a>
+</div>
+</div>
 
-      
+<div class="popup" data-popup="popup-6">
+<div class="popup-inner">
+<h2>Modeling and game development</h2>
+<p> Gaming is always fun when played on larger screen. We help you reach the living rooms and go beyond finger touch to a much versatile gaming experience. Our skilful engineers and designers use the latest technological achievements in order to create the best gaming apps..</p>
+<p><a data-popup-close="popup-6" href="#">Close</a></p>
+<a class="popup-close" data-popup-close="popup-6" href="#">x</a>
+</div>
+</div>
+
+
+      </div>
   </div>
 </div>  
 </div>
-<div id="portfolio" >
+<div id="portfolio" style="margin-top:55%;">
   
 <div class="container">
 
@@ -389,7 +389,7 @@
             <input type="tel" name="phone" placeholder="phone">
             <textarea rows="4" cols="50" name="msg" class="input-xxlarge" style="margin: 18px 21.9844px 0px 0px;width:100%;">     </textarea>
           
-           <div class="g-recaptcha col ml-auto" data-sitekey="6Ld3ZUMUAAAAAMqpVec-OGtBG9qQO2zkWfEAmPom" style="margin:20px;"></div>
+              <div class="g-recaptcha col ml-auto" data-sitekey="6Ld3ZUMUAAAAAMqpVec-OGtBG9qQO2zkWfEAmPom" style="margin:20px;"></div>
             <input type="submit" id="submit" name="sendmail" value="Send message" style="margin-bottom:50px;">    
           
           </form>
@@ -420,11 +420,42 @@
     <!-- // -->
      <script src="js/toucheffects.js"></script>
   
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    
 
-    <script src="js/jquery-3.1.1.min.js"  crossorigin="anonymous"></script>
+    
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  $(function() {
+//----- OPEN
+$('[data-popup-open]').on('click', function(e)  {
+var targeted_popup_class = jQuery(this).attr('data-popup-open');
+$('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+e.preventDefault();
+});
+//----- CLOSE
+$('[data-popup-close]').on('click', function(e)  {
+var targeted_popup_class = jQuery(this).attr('data-popup-close');
+$('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+e.preventDefault();
+});
+});
+
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5a83f59c4b401e45400ceb3e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
       <style type="text/css">
+
+
    .services div {
     
     
@@ -450,17 +481,17 @@
     cx = pos.left + radius,
     cy = pos.top + radius,
     x, y, angle = 0, angles = [],
-    spc = 360 / 5,
+    spc = 360 / 6,
     deg2rad = Math.PI / 180,
     i = 0;
 
-for(;i < 5; i++) {
+for(;i < 6; i++) {
     angles.push(angle);
     angle += spc;
 }
 
 /// space out radius
-radius += (radiusSat + 10);
+radius += (radiusSat + 40);
 
 loop();
 
@@ -475,12 +506,14 @@ function loop() {
 
         $('#sat' + i).css({left:x - radiusSat, top:y - radiusSat});
     
-        angles[i] = angles[i] + 1;
+        angles[i] = angles[i] + 0.4;
         if (angles[i] > 360) angles[i] = 0;
     }
     
     requestAnimationFrame(loop);
 }
+
+
   </script>
 
   </div>
