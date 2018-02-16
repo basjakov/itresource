@@ -28,47 +28,45 @@ error_reporting(0);
     if (!$res['success'] && isset($_POST['sendrezume'])) {
         // What happens when the CAPTCHA wasn't checked
         echo '<p>Please go back and make sure you check the security CAPTCHA box.</p><br>';
-    } else {
+    } else 
+    {
         // If CAPTCHA is successfully completed...
        
+    $name = $_POST['name'];
+    $lastname = $_POST['lastname'];
+    $subject = "Աշխատանքի ընդունման հայտարարություն ";
+    $phone  = $_POST['phone'];
+    $msg = $_POST['msg'];
+    $to    =  'info@itresources.am';
+    $headers = $_POST['email'];
 
-		move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file);
-
-		$name = $_POST['name'];
-		$lastname = $_POST['lastname'];
-		$subject = "Աշխատանքի ընդունման հայտարարություն ";
-		$phone  = $_POST['phone'];
-		$msg = $_POST['msg'];
-		$to    =  'info@itresources.am';
-		$headers = $_POST['email'];
-
-
-		
-
-
-
-	if (isset($_POST['sendrezume']) && strlen($name) > 3) 
-	{
-
-        
-        $target_dir = "files/rezume";
-        $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-        $uploadOk = 1;
-        $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-        if($imageFileType != "pdf" ) 
-        {
+if(isset($_POST['sendrezume']) && strlen($name) > 3) 
+{
+  if(!empty($_FILES['uploaded_file']))
+  {
+    $path = "files/rezume";
+    $path = $path . basename( $_FILES['uploaded_file']['name']);
     
-    $uploadOk = 0;
-        }
-        move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)
+    $imageFileType = strtolower(pathinfo($path,PATHINFO_EXTENSION));
+   
+    if(move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $path)) {
+      echo "The cv ".  basename( $_FILES['uploaded_file']['name']). 
+      " has been uploaded";
+    } 
+    elseif ( $uploadOk = 0) {
+        echo "There was an error uploading the file, please try again!";
+    }
+    else
+    {
+        echo "There was an error uploading the file, please try again!";
+    }
+  }
 
+  $message = "name ".$name."\n lastname ".$lastname."\n Phone  ".$phone."\n Rezume http://www.itresources.am/".$path."/"."\n Message".$msg;
+    mail($to, $subject,$message,$headers);
+}
+        
 
-		$message = "name ".$name."lastname ".$lastname."Phone  "."<a href='http://www.itresources.am/".$target_file."/'>Rezume</a>".$phone.'   Message'.$msg;
-		mail($to, $subject,$message,$headers);
-
-
-			
-	}
     }
 
 

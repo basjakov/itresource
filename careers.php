@@ -162,7 +162,7 @@
                 <input type="email" name="email" placeholder="your email">
                 <input type="text" name="phone" placeholder="your phone">
                 <label>Your Rezume</label>
-                <input type="file" name="fileToUpload">
+                <input type="file" name="uploaded_file">
                 <textarea name="msg"></textarea>
                  <div class="g-recaptcha col ml-auto" data-sitekey="6Ld3ZUMUAAAAAMqpVec-OGtBG9qQO2zkWfEAmPom" style="margin:20px;"></div>
                 <input type="submit" name="sendrezume" value="Send Rezume">
