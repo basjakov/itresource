@@ -68,7 +68,7 @@
      
    
   <script src="js/jquery-3.1.1.min.js"  crossorigin="anonymous"></script>
-
+  <script type="text/javascript" src="js/carrers.js"></script>
   
 
 </head>
@@ -138,22 +138,15 @@
  </header>
 </div>
 <div class="container">
-    <div class="row">
+    <div class="row" style="margin: 70px;">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div class="row" >
-                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                        <h2><span style="color:#FEFEFE;">JavaScript Developer</span></h2>
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                         <h2><span style="color:#FEFEFE;">Marketing Manager</span></h2>
-                    </div>
-                </div>  
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-          
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
-          <form method="POST" action="">
+                
+                    
+                        <h2><span class="vacancies" id="js_dev" data-toggle="collapse" data-target="#webdeveloper">web Developer</span></h2>
+                  
+                      
+                 
+          <form enctype="multipart/form-data" method="POST" action="">
             <?php
                 include "sendrezume.php";
             ?>
@@ -168,10 +161,59 @@
                 <input type="submit" name="sendrezume" value="Send Rezume">
             </form>
         </div>
-    </div>
+
+   
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 align-top respons" style="margin:10% auto;">
+            <div id="webdeveloper" class="collapse">          
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div>
+                              
+                                <h2>Web Developer</h2>
+                              We are looking for an enthusiastic junior web developer to join our professional team. Highly motivated applicants without experience may still apply. To know the job responsibilities and requirements keep reading.
+                           
+                          
+            Job responsibilities:
+            <ul>
+            <li>Plan, develop and debug PHP based web interfaces;</li>
+
+            <li> Understand emerging web technologies;</li>
+
+            <li> Build efficient, testable, and reusable PHP modules;</li>
+
+            <li>Integrate user-facing elements developed by front-end developers;</li>
+
+            <li>Collaborate with the teams, work on collective projects. ﻿</li>
+
+           
+           <li> Basic knowledge of algorithms;</li>
+
+            <li> Deep knowledge of higher mathematics</li>
+
+            <li>Basic understanding of object-oriented programming;</li>
+
+            <li>Knowledge of PHP web frameworks (such as Laravel, Yii, etc depending on your</li> technology stack);
+
+            <li>Understanding of code versioning tools, such as Git;</li>
+
+           
+
+            <li>Basic understanding of front-end technologies, such as JavaScript, HTML5, and CSS3;</li>
+
+            <li> Technical level of English.﻿</li>
+            </ul>
+          
+                            </div>
+
+
+              </div> 
+            </div> 
+             
+        </div>
+    
 </div>
+
 </div>
-</div>
+
 
 
 

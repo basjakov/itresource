@@ -249,17 +249,20 @@ p
 {
 	color:#222222;
 }
+
+
+
 input[type=text], input[type=tel],input[type=email],select, textarea 
 {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    
+    border: 2px solid #00B6F4;
 }
 .ab_mob
 {
@@ -296,6 +299,18 @@ input[type=submit] {
     
 }
 
+
+.vacancies
+{
+	color:#FEFEFE;
+	font-size: 44px;
+	font-weight: 400;
+	color:#FEFEFE;
+	line-height: 1.4;
+    letter-spacing: 0;
+    font-family: Open Sans;
+    color:#FEFEFE;
+}
 
 /*media for responsive */
 
